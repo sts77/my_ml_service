@@ -25,9 +25,3 @@ class MLTests(TestCase):
         self.assertEqual('OK', response['status'])
         self.assertTrue('label' in response)
         self.assertEqual('<=50K', response['label'])
-
-
-
-a = 1
-b = 2
-print(a+b)
